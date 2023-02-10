@@ -1,0 +1,26 @@
+#Process to deploy django project on pythonanywhere...
+1.Make an account on pythonanywhere.com
+
+2.Click on dashboard option
+
+3.You will see base console click on that
+
+4.Write this command ($ pwd) to check your directory
+
+5.write this command ($ git clone https://github.com/Mukeshrun/todoapp ):-this http wali thing is your gitproject url...
+#This is done to clone your git in python anywhere.com
+
+6.($ mkvirtualenv --python=/usr/bin/python3.9 virtualenvname):Write this command
+
+7.($ pip install django) Write this command to install djangoo in your pythonanywhere virtual
+
+
+8.just incase if you have used other pip installment in your prject in that case:
+(cd mytodo(git folder name)) and then 
+($ pip install -r requirements.txt) write thsi command 
+
+9.Now open another tab from pythonanywhere.com which is web and on right side click add web  option...
+
+10.enter your virtaulenv in that you named 
+
+11.edit wsgi.confioguration file
